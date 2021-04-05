@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bloom_infra *.css
+recursive-include bloom_infra *.csv
+recursive-include bloom_infra *.html
+recursive-include bloom_infra *.ico
+recursive-include bloom_infra *.js
+recursive-include bloom_infra *.json
+recursive-include bloom_infra *.md
+recursive-include bloom_infra *.png
+recursive-include bloom_infra *.py
+recursive-include bloom_infra *.svg
+recursive-include bloom_infra *.txt
+recursive-exclude bloom_infra *.pyc
