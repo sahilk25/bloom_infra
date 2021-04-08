@@ -14,8 +14,11 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
-permission_query_conditions = {
-    "User": "bloom_infra.test.test1",
+
+doc_events = {
+    "User": {
+        "on_update": "bloom_infra.user_api.update_user"
+    }
 }
 
 # include js, css files in header of desk.html
